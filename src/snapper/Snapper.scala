@@ -29,7 +29,7 @@ object Snapper extends App {
 //  println(lampOn)
 
   import scala.io.Source
-  val lines = Source.fromFile("src/snapper/A-large-practice.in").getLines.zipWithIndex
+  val lines = Source.fromFile("src/snapper/A-small-practice.in").getLines.zipWithIndex
   lines.next // drop #cases
 
   while (lines.hasNext) {
